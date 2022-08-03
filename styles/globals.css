@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
+.nav {
+    @apply p-4 bg-teal-600 flex text-gray-200 font-serif font-semibold tracking-wide drop-shadow-lg shadow-lg shadow-teal-600 mb-4;
+}
+.nav-li{
+    @apply mx-2;
+}
 @tailwind utilities;
