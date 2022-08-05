@@ -1,11 +1,12 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+
 const Footer = () => {
     return (
-        <div className="bottom-0 mb-0 relative w-full">
-            <footer className="text-gray-600 body-font">
-                <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+        <div className="left-0 w-full sticky bottom-0 clear-both top-[100%]">
+            <div className="text-gray-600 body-font">
+                <div className="container px-5 py-12 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
                     <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
                         <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
                             <Image src="/logo.jpeg" alt="logo" width="30rem" height="30rem" />
@@ -26,57 +27,6 @@ const Footer = () => {
 
                             </nav>
                         </div>
-                        <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                            <h2 className="footer-category-head">CATEGORIES</h2>
-                            <nav className="list-none mb-10">
-                                <li>
-                                    <a className="footer-link">First Link</a>
-                                </li>
-                                <li>
-                                    <a className="footer-link">Second Link</a>
-                                </li>
-                                <li>
-                                    <a className="footer-link">Third Link</a>
-                                </li>
-                                <li>
-                                    <a className="footer-link">Fourth Link</a>
-                                </li>
-                            </nav>
-                        </div>
-                        <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                            <h2 className="footer-category-head">CATEGORIES</h2>
-                            <nav className="list-none mb-10">
-                                <li>
-                                    <a className="footer-link">First Link</a>
-                                </li>
-                                <li>
-                                    <a className="footer-link">Second Link</a>
-                                </li>
-                                <li>
-                                    <a className="footer-link">Third Link</a>
-                                </li>
-                                <li>
-                                    <a className="footer-link">Fourth Link</a>
-                                </li>
-                            </nav>
-                        </div>
-                        <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                            <h2 className="footer-category-head">CATEGORIES</h2>
-                            <nav className="list-none mb-10">
-                                <li>
-                                    <a className="footer-link">First Link</a>
-                                </li>
-                                <li>
-                                    <a className="footer-link">Second Link</a>
-                                </li>
-                                <li>
-                                    <a className="footer-link">Third Link</a>
-                                </li>
-                                <li>
-                                    <a className="footer-link">Fourth Link</a>
-                                </li>
-                            </nav>
-                        </div>
                     </div>
                 </div>
                 <div className="bg-gray-100">
@@ -85,7 +35,7 @@ const Footer = () => {
                         </p>
                     </div>
                 </div>
-            </footer>
+            </div>
         </div>
     )
 }
