@@ -43,7 +43,7 @@ const Footer = () => {
                 </div>
                 <div className="bg-gray-100">
                     <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-                        <p className="text-gray-500 text-sm text-center sm:text-left"> <Link href="https://github.com/codes-guide-youtube/codes-guide" rel="noopener noreferrer" className="text-gray-600 ml-1"><a target={'_blank'}>© 2022 Codes Guide Github</a></Link>
+                        <p className="text-gray-500 text-sm text-center sm:text-left">© 2022 Codes Guide <Link href="https://github.com/codes-guide-youtube/codes-guide" rel="noopener noreferrer" className="text-gray-600 ml-1"><a target={'_blank'} className="text-gray-700 font-semibold underline ">Github</a></Link>
                         </p>
                     </div>
                 </div>

@@ -27,9 +27,9 @@ const application = () => {
     </div>
       <div className="justify-center mx-auto">
         <h1 className="text-2xl">In progress</h1>
-      <div className="flex flex-col md:flex-row overflow-x-scroll">
-      <AppContainer href="https://tail-comp.vercel.app/" image="https://ik.imagekit.io/codesguide/tail-comp/banner.png" name="Tail-Comp" framework="Next.JS" details={'Get all Tailwind CSS components from here. All components are responsive. (Click on this card to get redirected to the website in progress)'} />
-    </div>
+      <div className="flex md:flex-row overflow-x-scroll">
+      <AppContainer github="https://github.com/codes-guide-youtube/tail-comp" href="https://tail-comp.vercel.app/" image="https://ik.imagekit.io/codesguide/tail-comp/banner.png" name="Tail Comp" framework="Next.JS" details={'Get all Tailwind CSS components from here. All components are responsive. (Click on this card to get redirected to the website in progress)'} />
+      </div>
     </div>
       <div className="justify-center mx-auto">
         <h1 className="text-2xl">Finished</h1>
@@ -45,7 +45,7 @@ const application = () => {
     </div>
     </div>
   </section>
-\
+
   </div>
   )
 }

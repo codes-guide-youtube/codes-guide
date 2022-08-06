@@ -10,6 +10,7 @@ const AppContainer = (props) => {
           <div className="bg-gray-100 p-6 rounded-lg">
             <Image class="h-40 rounded w-full object-cover object-center mb-6" width={'720px'} height={'400px'} src={props.image} alt="content"/>
             <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Created with {props.framework}</h3>
+            <h3 className="tracking-wider text-md text-indigo-600 font-bold title-font hover:text-violet-800 decoration-indigo-600 underline hover:decoration-indigo-800"><Link href={props.github}><a target={'_blank'}>Github</a></Link></h3>
             <h2 className="text-lg text-gray-900 font-medium title-font mb-4">{props.name}</h2>
             <p className="leading-relaxed text-base">{props.details}</p>
         </div>
