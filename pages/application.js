@@ -20,25 +20,25 @@ const application = () => {
         <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">Keep track of our upcoming applications</p>
       </div>
       <div className="justify-center mx-auto">
-        <h1>Pending Applications {`(Work not started, an idea)`}</h1>
+        <h1 className="text-2xl">Pending Applications {`(Work not started, an idea)`}</h1>
       <div className="flex flex-col md:flex-row overflow-x-scroll">
       <MsgTitle msg={'No pending idea'} />
     </div>
     </div>
       <div className="justify-center mx-auto">
-        <h1>In progress</h1>
+        <h1 className="text-2xl">In progress</h1>
       <div className="flex flex-col md:flex-row overflow-x-scroll">
-      <AppContainer image="https://ik.imagekit.io/codesguide/tail-comp/tail-comp-logo.png" name="Tail-Comp" framework="Next.JS" details={'Get all Tailwind CSS components from here. All components are responsive.'} />
+      <AppContainer href="https://tail-comp.vercel.app/" image="https://ik.imagekit.io/codesguide/tail-comp/banner.png" name="Tail-Comp" framework="Next.JS" details={'Get all Tailwind CSS components from here. All components are responsive. (Click on this card to get redirected to the website in progress)'} />
     </div>
     </div>
       <div className="justify-center mx-auto">
-        <h1>Finished</h1>
+        <h1 className="text-2xl">Finished</h1>
       <div className="flex flex-col md:flex-row overflow-x-scroll">
       <MsgTitle msg={'No other application finished'} />
     </div>
     </div>
       <div className="justify-center mx-auto">
-        <h1>Discarded {`(If the application discarded time is more than 30 days, it will not show up here)`}</h1>
+        <h1 className="text-2xl">Discarded {`(If the application discarded time is more than 30 days, it will not show up here)`}</h1>
       <div className="flex flex-col md:flex-row overflow-x-scroll">
      <MsgTitle msg={'No application idea discarded'} />
     </div>
