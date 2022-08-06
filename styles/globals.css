@@ -25,32 +25,41 @@
     .nav-li {
         @apply mx-2;
     }
-    .details-container{
+
+    .details-container {
         @apply open:bg-white mx-auto w-96 open:drop-shadow-2xl p-2 open:p-4 rounded-md bg-gray-100 border-gray-400 open:border-2 dark:bg-gray-800 dark:open:bg-black;
     }
-    .details-detail{
-       @apply text-gray-600 text-base my-10 text-justify;
-       font-family:'Pt Sans Narrow',sans-serif;
+
+    .details-detail {
+        @apply text-gray-600 text-base my-10 text-justify;
+        font-family: 'Pt Sans Narrow', sans-serif;
     }
-    .details-title{
-        @apply  cursor-pointer hover:text-gray-600;
-        font-family:'Dosis', sans-serif;
+
+    .details-title {
+        @apply cursor-pointer hover:text-gray-600;
+        font-family: 'Dosis', sans-serif;
     }
-    .email, .fiverr{
-        font-family:'Dosis', sans-serif;
+
+    .email,
+    .fiverr {
+        font-family: 'Dosis', sans-serif;
         @apply my-5 text-xl;
     }
-    .email-link, .fiverr-link{
-        font-family:'PT Sans Narrow',sans-serif;
+
+    .email-link,
+    .fiverr-link {
+        font-family: 'PT Sans Narrow', sans-serif;
     }
-    .email-link{
+
+    .email-link {
         @apply underline decoration-black decoration-4 hover:text-gray-700 hover:decoration-gray-700;
     }
-    .footer-link{
-       @apply cursor-pointer text-gray-600 hover:text-gray-800
+
+    .footer-link {
+        @apply cursor-pointer text-gray-600 hover:text-gray-800
     }
-    .footer-category-head{
+
+    .footer-category-head {
         @apply font-medium text-gray-900 tracking-widest text-sm mb-3;
     }
 }
-

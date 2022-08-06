@@ -9,7 +9,7 @@ const Navbar = () => {
         <ul className="flex mx-auto">
             <li className="nav-li"><Link href="/">Home</Link></li>
             <li className="nav-li"><Link href="/about">About</Link></li>
-            <li className="nav-li"><Link href="/contact">Contact</Link></li>
+            <li className="nav-li"><Link href="/application">Applications</Link></li>
         </ul>
       </nav>
     </div>
