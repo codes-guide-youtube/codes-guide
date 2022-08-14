@@ -56,10 +56,13 @@
     }
 
     .footer-link {
-        @apply cursor-pointer text-gray-600 hover:text-gray-800
+        @apply cursor-pointer text-gray-600 hover:text-gray-900;
     }
 
     .footer-category-head {
         @apply font-medium text-gray-900 tracking-widest text-sm mb-3;
+    }
+    .overflow-div{
+        @apply flex flex-row overflow-x-scroll;
     }
 }
